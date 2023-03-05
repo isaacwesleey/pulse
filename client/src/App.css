@@ -1,0 +1,21 @@
+.App {
+    display: flex;
+    flex-wrap: wrap; /* agregar esta propiedad para envolver los elementos en varias filas */
+    justify-content: center;
+    gap: 2rem;
+    height: 100vh;
+    width: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+  }
+  
+  button {
+    background-color: transparent;
+  }
+  
+  @media (max-width: 768px) {
+    .App {
+      gap: 1rem;
+      padding: 0 1rem;
+    }
+  }
+  

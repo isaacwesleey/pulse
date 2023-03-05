@@ -1,0 +1,76 @@
+.new-user h1 {
+    margin-bottom: 0.5rem;
+}
+
+.new-user p {
+    color: #717F8A;
+}
+.new-user-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    border-radius: 1rem;
+    max-width: 30rem;
+    max-width: 500px;
+    gap: 2rem;
+}
+
+.new-user-container button {
+    height: 50px;
+    width: 300px;
+    border-radius: 25px;
+    font-size: 1.2rem;  
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    align-self: center;
+}
+
+.new-user-container button:hover {
+    background-color: rgba(221, 221, 221, 0.568);
+}
+
+.new-user {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    border: 0.5px solid #dadada50;
+    border-radius: 1rem;
+    gap: 1rem;
+}
+
+.btn__home {
+    background-color: write;
+    border: 0.5px solid #dadada50;
+}
+
+.new-user a {
+margin-top: 1rem;
+text-align: center;
+text-decoration: none;
+color: #1da1f2;
+}
+
+.user {
+    display: flex;
+    flex-direction: column;
+}
+
+.user img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+
+.user h1 {
+    margin-bottom: 0.5rem;
+    text-align: center;
+}
+
+.user p {
+    color: #717F8A;
+    text-align: center;
+}
+

@@ -1,0 +1,66 @@
+.twitter-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  max-width: 500px;
+  gap: 2rem;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+
+.logo {
+  width: auto;
+  height: 100px;
+  margin-bottom: 10px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+}
+
+.explore {
+  margin-right: 10px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.notifications {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.config {
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  margin-right: 15px;
+}
+
+.buttons button {
+  width: 100%;
+  text-align: left;
+  font-size: 1.5rem;
+  height: 3rem;
+}
+
+.buttons .search:hover {
+  background-color: rgba(221, 221, 221, 0.568);
+  border-radius: 1.5rem;
+
+}
+
+.buttons .notifications:hover {
+  background-color: rgb(221, 221, 221);
+  border-radius: 1.5rem;
+
+}
